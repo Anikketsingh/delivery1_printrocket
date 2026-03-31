@@ -14,8 +14,7 @@ export const siteConfig = {
       "https://print-rocket-admin-panel-2446.vercel.app/") +
     (process.env.NEXT_PUBLIC_ADMIN_SIGNUP_KEY_PATH ||
       "/$2b$10$M0mdRRBS4YUlMcjPQKYL3O/bhHKTfJIDQTKuvvor532NX2mUYWqZm"),
-  apkPublicPath:
-    process.env.NEXT_PUBLIC_APK_PUBLIC_PATH || "/apk/printrocket-fe.apk",
+  apkPublicPath: "/apk/printrocket-fe.apk",
   siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3001"
 };
 
