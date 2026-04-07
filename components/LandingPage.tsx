@@ -1,4 +1,3 @@
-import Reveal from "./motion/Reveal";
 import Navbar from "./Navbar";
 import Hero from "./Hero";
 import FeaturesSection from "./sections/FeaturesSection";
@@ -20,27 +19,19 @@ export default function LandingPage() {
 
       <main>
         <section>
-          <Reveal>
-            <Hero />
-          </Reveal>
+          <Hero />
         </section>
 
         <section id="features" className="mx-auto max-w-6xl px-4 sm:px-6">
-          <Reveal>
-            <FeaturesSection />
-          </Reveal>
+          <FeaturesSection />
         </section>
 
         <section className="mx-auto mt-16 max-w-6xl px-4 sm:px-6" id="how-it-works">
-          <Reveal>
-            <HowItWorksSection />
-          </Reveal>
+          <HowItWorksSection />
         </section>
 
         <section className="mx-auto mt-16 max-w-6xl px-4 sm:px-6">
-          <Reveal>
-            <TestimonialsSection />
-          </Reveal>
+          <TestimonialsSection />
         </section>
       </main>
 
